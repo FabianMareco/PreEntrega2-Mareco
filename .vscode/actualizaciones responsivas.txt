@@ -1,0 +1,11 @@
+Se realizan trabajos de full responsive en páginas: INICIO y CLASES
+
+Se deja la página de NOSOTROS sin cambios responsivos para comparar los inconvenientes que tuve que trabajar, luego en el siguiente trabajo serán modificados
+
+Primeramente se corrige de todas las páginas el espaciado de los elementos del footer, para corregir error en vista mobile (se puede apreciar en el primer commit)
+
+Se corrige desborde de elementos en vistas sm md lg en el nav
+
+Se corrige la distribución de las imágenes de la página CLASES en vistas mobile y tablet
+
+Se corrige justify-content de los elementos del la barra nav, en versiones anteriores los mismos no estaban centrados, la descripción del logo quedaba separados el texto y y la imagen, más los links a los accesos quedaban a la izquierda. Se corrige con propiedad de d-flex justify-content-center (en vistas sm md lg). Para poder justificar los links y que no afecte a la barra de navegación en vista mobile que no lograba colapsar al menú hamburgesa, se crea un div que englobe como elemento padre a toda la barra de navegación para así poder centrar elementos en todas las vistas (mobile,tablet,desktop).
