@@ -1,3 +1,9 @@
+$color1 : rgb(48, 107, 52);
+$color2 : rgb(237, 37, 38);
+$color3 : rgb(243, 167, 18);
+$color4 : rgb(80, 21, 55);
+$color5 : rgb(251, 86, 7);
+$color6 : ivory;
 *{
     margin-bottom: 0!important;
     box-sizing: border-box;
@@ -14,9 +20,9 @@
 .navbar-brand{
     font-family: Yes Free;
     font-size: 60pt;
-    text-shadow: 5px 5px 5px gold,
-                10px 10px 10px rgb(143, 45, 86),
-                15px 15px 15px ivory ;
+    text-shadow: 5px 5px 5px  gold,
+                10px 10px 10px rgb(143, 45, 86) ,
+                15px 15px 15px ivory ; 
     color: rgb(20, 20, 20);
 
 }
@@ -175,7 +181,8 @@ footer .redes{
 footer .redes a:hover{
     color: rgb(235, 233, 242);
 
-}footer .redes a{
+}
+footer .redes a{
     color: gold;
     text-decoration: none;
 }
@@ -249,4 +256,49 @@ footer .redes a:hover{
 }
 .main-contactanos{
     width: 100%;
+}
+@for $i from 1 through 3 {
+    .card-#{$i} {
+        background-color: lighten($color2, $i *10%);
+    }
+}
+@for $i from 4 through 6 {
+    .card-#{$i} {
+        background-color: lighten($color3, ($i - 3) *10%);
+    }
+}
+@for $i from 7 through 9 {
+    .card-#{$i} {
+        background-color: lighten($color1, ($i - 6) *10%);
+    }
+}
+@for $i from 10 through 12 {
+    .card-#{$i} {
+        background-color: lighten($color4, ($i - 9) *10%);
+    }
+}
+@for $i from 13 through 15 {
+    .card-#{$i} {
+        background-color: lighten($color5, ($i - 12) *10%);
+    }
+}
+.card{
+    box-shadow: 5px 5px 5px;
+}
+.card-title{
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
+}
+
+@for $i from 1 through 15 {
+    .card-#{$i}:hover{
+        box-shadow: 5px 5px 5px $color6,
+                        5px -5px 5px $color6,
+                            -5px 5px 5px $color6,
+                                -5px -5px 5px $color6;
+
+    }
+}
+.main-clases{
+    row-gap: 20px;
 }

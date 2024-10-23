@@ -251,4 +251,137 @@ footer .redes a {
 
 .main-contactanos {
   width: 100%;
+}
+
+.card-1 {
+  background-color: #f15455;
+}
+
+.card-2 {
+  background-color: #f58384;
+}
+
+.card-3 {
+  background-color: #f9b2b3;
+}
+
+.card-4 {
+  background-color: #f5b943;
+}
+
+.card-5 {
+  background-color: #f8cb73;
+}
+
+.card-6 {
+  background-color: #fadda4;
+}
+
+.card-7 {
+  background-color: #408e45;
+}
+
+.card-8 {
+  background-color: #50b157;
+}
+
+.card-9 {
+  background-color: #74c079;
+}
+
+.card-10 {
+  background-color: #782053;
+}
+
+.card-11 {
+  background-color: #a12a6f;
+}
+
+.card-12 {
+  background-color: #c9358a;
+}
+
+.card-13 {
+  background-color: #fc7839;
+}
+
+.card-14 {
+  background-color: #fd9a6b;
+}
+
+.card-15 {
+  background-color: #fdbd9e;
+}
+
+.card {
+  box-shadow: 5px 5px 5px;
+}
+
+.card-title {
+  text-shadow: 2px 2px 4px white;
+  text-align: center;
+}
+
+.card-1:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-2:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-3:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-4:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-5:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-6:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-7:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-8:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-9:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-10:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-11:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-12:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-13:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-14:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.card-15:hover {
+  box-shadow: 5px 5px 5px ivory, 5px -5px 5px ivory, -5px 5px 5px ivory, -5px -5px 5px ivory;
+}
+
+.main-clases {
+  row-gap: 20px;
 }/*# sourceMappingURL=estilos.css.map */
