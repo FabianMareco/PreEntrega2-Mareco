@@ -65,6 +65,7 @@ ul.navegacion li{
 nav{
     text-align: center;
     align-items: center;
+    width: 100%;
 
 
 }
@@ -99,9 +100,7 @@ nav{
 .nav-item a:hover{
     color: ivory;
 }
-.navbar{
-    // background-image: radial-gradient(circle, #b81365, #c31262, #ce135f, #d8165b, #e11b56, #e32a55, #e43554, #e63f54, #e04d59, #da585f, #d46265, #cd6b6b);
-}
+
 footer{
     text-align: center;
     margin: 0!important;
@@ -218,15 +217,20 @@ footer .redes a{
 
 }
 .form-uno{
-    justify-content: right;
+    justify-content: center;
 }
 .form-item{
     justify-content:right;
-    margin-right: 35%;
+    margin-right: 30%;
     color: rgb(20, 20, 20);
     font-weight: bolder;
     text-shadow: 0 0 5px ivory,
                     0 0 10px palevioletred;
+}
+@media only screen and (max-width:580px){
+    .form-item{
+        margin-right: 0%;
+    }
 }
 .boton-enviar{
     justify-content:center!important;
@@ -301,4 +305,5 @@ footer .redes a{
 }
 .main-clases{
     row-gap: 20px;
+    width: 100%;
 }

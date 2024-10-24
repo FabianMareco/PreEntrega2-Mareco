@@ -2,6 +2,6 @@ Se realiza mejoras para optimizar el SEO
 
 1. Se agrega descripción de las imágenes en "alt". 
 2. Se cambia el formato de las imágenes para ser menos pesadas, todas a formato PNG
-3.
+3. Se corrigen vistas responsivas en todas las páginas.
 
             
