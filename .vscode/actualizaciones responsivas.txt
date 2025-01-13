@@ -11,3 +11,11 @@ Se corrige la distribución de las imágenes de la página CLASES en vistas mobi
 Se corrige justify-content de los elementos del la barra nav, en versiones anteriores los mismos no estaban centrados, la descripción del logo quedaba separados el texto y y la imagen, más los links a los accesos quedaban a la izquierda. Se corrige con propiedad de d-flex justify-content-center (en vistas sm md lg). Para poder justificar los links y que no afecte a la barra de navegación en vista mobile que no lograba colapsar al menú hamburgesa, se crea un div que englobe como elemento padre a toda la barra de navegación para así poder centrar elementos en todas las vistas (mobile,tablet,desktop).
 
 Tenía más commit con muestras de cambios realizados durante el maquetado pero se me desconfiguraron porque tuve que iniciar de nuevo los pasos para enlazar git con github. Pero en vista a que perdí el trabajo que inicié de cero para esta pre entrega, reutilicé lo que entregué en la primera. Ahí también se puede apreciar la evolución de la página
+
+Se agregan botones para NUEVO USUARIO Y OLVIDÉ MI USUARIO/CONTRASEÑA en la pagina de INGRESO A PLATAFORMA además de un check para recordar contraseña en inicio de sesión.
+
+Se agrega un check para recibir novedades de la página en la sección CONTACTANOS.
+
+Se humaniza el texto ya trabajado con el uso de IA.
+
+Se agregan botones de llamado a la acción: IR A UNA CLASE en la página de CLASES.

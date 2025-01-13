@@ -56,7 +56,8 @@
         <div data-aos="fade-up" data-aos-duration="1500">
             <h3>Ingreso a la plataforma</h3><br><br>
         </div>
-        <form action="enviar.php" method="post" enctype="text/plain" data-aos="fade-down" data-aos-duration="1000">
+        <form action="enviar.php" method="post" enctype="text/plain" data-aos="fade-down" data-aos-duration="1000"
+            class="form-ingreso">
             <div class="item-contacto">
                 <label for="usuario">USUARIO</label>
                 <input type="email">
@@ -64,9 +65,17 @@
             <div class="item-contacto">
                 <label for="">CONTRASEÑA</label>
                 <input type="password">
-            </div><br><br>
+            </div><br>
+            <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Recordarme la contraseña
+                </label>
+            </div><br>
             <div class="item-contacto">
-                <a href="enviar.php" class="boton-enviar-dos btn  btn-success">INGRESAR</a>
+                <a href="enviar.php" class="boton-enviar-dos btn  btn-success">INGRESAR</a><br><br>
+                <button type="button" class="btn btn-danger btn-m">OLVIDÉ MI USUARIO/CONTRASEÑA</button><br><br>
+                <a href="enviar.php" class="boton-enviar-dos btn  btn-warning">NUEVO USUARIO</a><br><br>
             </div>
         </form>
     </div>

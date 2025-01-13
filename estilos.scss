@@ -121,7 +121,7 @@ h3{
     text-shadow: 3px 3px 3px palevioletred,
                     6px 6px 6px black,
                         9px 9px 9px ivory;
-
+    border-radius: 1rem;
 
 }
 p{
@@ -133,7 +133,7 @@ p{
     padding: 10px;
     font-weight: bolder;
     color: rgb(33, 37, 41);
-
+    border-radius: 1rem;
 }
 #subdescripcion-logo{
     font-family: kocheng;
@@ -149,7 +149,7 @@ font-size: 20pt;
 font-family: Kocheng;
 color: rgb(195, 0, 255);
 font-weight: bolder;
-background-color: rgba(0, 0, 0, 0.884);
+background-color: rgba(0, 0, 0, 0.788);
 padding: 15px;
 margin-bottom: 0;
 text-shadow: 3px 3px 3px black,
@@ -306,4 +306,9 @@ footer .redes a{
 .main-clases{
     row-gap: 20px;
     width: 100%;
+}
+.form-check-input{
+    box-shadow: 2px 2px 2px black;
+    margin-right: 2px;
+
 }
