@@ -19,3 +19,5 @@ Se agrega un check para recibir novedades de la página en la sección CONTACTAN
 Se humaniza el texto ya trabajado con el uso de IA.
 
 Se agregan botones de llamado a la acción: IR A UNA CLASE en la página de CLASES.
+
+Se corrigen bordes de textos y H3
