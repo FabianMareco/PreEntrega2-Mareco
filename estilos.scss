@@ -305,7 +305,7 @@ footer .redes a{
 }
 .main-clases{
     row-gap: 20px;
-    width: 100%;
+    max-width: 100%!important;
 }
 .form-check-input{
     box-shadow: 2px 2px 2px black;
